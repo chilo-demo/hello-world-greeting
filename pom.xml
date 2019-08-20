@@ -13,6 +13,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sonar.language>java</sonar.language>
      <!-- optional URL to server. Default value is http://localhost:9000 -->
+     <!-- 임의로 설정한 SonarQube Server의 주소를 maven 프로퍼티로 정의해 주어야 오류가 안난다 -->
     <sonar.host.url>
       http://192.168.10.116:9005
     </sonar.host.url>
